@@ -38,7 +38,8 @@ namespace ProjectOne.Controllers
 
 
             ViewBag.Output += "</table>";
-            return View();
+            ViewBag.Name = "Copenhagen, Denmark";
+            return View("MissionType");
         }
 
         public ActionResult MissionTwo()
@@ -64,7 +65,8 @@ namespace ProjectOne.Controllers
 
 
             ViewBag.Output += "</table>";
-            return View();
+            ViewBag.Name = "Paris, France";
+            return View("MissionType");
         }
 
         public ActionResult MissionThree()
@@ -89,7 +91,8 @@ namespace ProjectOne.Controllers
             ViewBag.Output += "</tr>";
 
             ViewBag.Output += "</table>";
-            return View();
+            ViewBag.Name = "Arcadia, California";
+            return View("MissionType");
         }
     }
 }

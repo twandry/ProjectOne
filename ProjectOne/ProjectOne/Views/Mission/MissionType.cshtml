@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "MissionType";
+}
+<!DOCTYPE html>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="breadcrumb-item">@Html.ActionLink("Mission", "Index", "Mission")</li>
+        <li class="breadcrumb-item active" aria-current="page">@ViewBag.Name</li>
+       
+    </ol>
+</nav>
+
+<br/>
+<br/>
+
+
+@Html.Raw((string)ViewBag.Output)

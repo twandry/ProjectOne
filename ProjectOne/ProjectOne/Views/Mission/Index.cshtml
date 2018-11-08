@@ -1,18 +1,35 @@
-﻿@model ProjectOne.Models.Mission
-
+﻿
 @{
-    Layout = null;
+    ViewBag.Title = "Index";
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div> 
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "Home")</li>
+            <li class="breadcrumb-item active" aria-current="page">Mission</li>
+        </ol>
+    </nav>
+    <h2>Mission</h2>
+    <ul class=dropdown></ul>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Your Mission</button>
+            <ul class="dropdown-menu">
+                <li>@Html.ActionLink("Copenhagen, Denmark", "MissionOne", "Mission")</li>
+                <li>@Html.ActionLink("Paris, France", "MissionTwo", "Mission")</li>
+                <li>@Html.ActionLink("Arcadia, California", "MissionThree", "Mission")</li>
+            </ul>
+        </div>
     </div>
 </body>
-</html>
+    </html>
