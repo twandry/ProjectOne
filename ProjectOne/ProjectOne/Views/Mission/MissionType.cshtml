@@ -9,12 +9,35 @@
         <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="breadcrumb-item">@Html.ActionLink("Mission", "Index", "Mission")</li>
         <li class="breadcrumb-item active" aria-current="page">@ViewBag.Name</li>
-       
+
     </ol>
 </nav>
 
-<br/>
-<br/>
+<br />
+<br />
 
 
 @Html.Raw((string)ViewBag.Output)
+
+<br />
+<br />
+
+<p></p>
+
+
+<h2>Ask a Question</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+<form action="">
+    Submit Your Question:<br>
+    <textarea rows="4" cols="250">
+    </textarea>
+</form>
+
+    <input type="submit" value="Submit Registration" />
+}
+

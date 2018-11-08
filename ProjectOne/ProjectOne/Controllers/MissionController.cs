@@ -14,7 +14,7 @@ namespace ProjectOne.Controllers
         {
             return View();
         }
-
+        [HttpGet]
         public ActionResult MissionOne()
         {
             ViewBag.Output = "<table>";
@@ -41,7 +41,7 @@ namespace ProjectOne.Controllers
             ViewBag.Name = "Copenhagen, Denmark";
             return View("MissionType");
         }
-
+        [HttpGet]
         public ActionResult MissionTwo()
         {
             ViewBag.Output = "<table>";
@@ -68,7 +68,7 @@ namespace ProjectOne.Controllers
             ViewBag.Name = "Paris, France";
             return View("MissionType");
         }
-
+        [HttpGet]
         public ActionResult MissionThree()
         {
             ViewBag.Output = "<table>";
