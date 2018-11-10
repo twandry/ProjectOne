@@ -56,6 +56,7 @@ body, html {
    width: 100%;
    position: absolute;
 }
+<<<<<<< HEAD
 
 .centered-thing {
    position: absolute;
@@ -65,3 +66,5 @@ body, html {
    transform: translate(-50%, -50%);
 }
 
+=======
+>>>>>>> f053d95f733b5c25811ceb434303e4192de95431
