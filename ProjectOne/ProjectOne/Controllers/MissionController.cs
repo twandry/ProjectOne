@@ -17,8 +17,8 @@ namespace ProjectOne.Controllers
         [HttpGet]
         public ActionResult MissionOne()
         {
-            ViewBag.Imagename = "Paris.png";
-            ViewData["img"] = "Paris.png";
+
+            ViewBag.Pic = "Denmark.png"; 
     
             ViewBag.Output = "<table>";
             ViewBag.Output += "<tr>";
@@ -101,6 +101,7 @@ namespace ProjectOne.Controllers
         [HttpGet]
         public ActionResult MissionTwo()
         {
+            ViewBag.Pic = "Paris.png";
             ViewBag.Output = "<table>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
@@ -181,6 +182,7 @@ namespace ProjectOne.Controllers
         [HttpGet]
         public ActionResult MissionThree()
         {
+            ViewBag.Pic = "Cali.png";
             ViewBag.Output = "<table>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
