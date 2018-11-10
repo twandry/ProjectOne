@@ -20,7 +20,7 @@ namespace ProjectOne.Controllers
 
             ViewBag.Pic = "Denmark.png"; 
     
-            ViewBag.Output = "<table>";
+            ViewBag.Output = "<table class = 'table'>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
             ViewBag.Output += "<th>Mission President</th>";
@@ -36,7 +36,7 @@ namespace ProjectOne.Controllers
             ViewBag.Output += "<td>" + "Borups Alle 128, 1.Tv 2000 Frederiksberg Denmark" + " </td>";
             ViewBag.Output += "<td>" + "Danish" + "</td>";
             ViewBag.Output += "<td>" + "Due to the oceanic climate, the weather patterns are unstable and constantly changing in all four seasons. Summer- temperate weather. July and August are the wettest months of the year with 68-70 mm of precipiation. Autumn- temperature ranges 11 degrees C- below 3 degrees C. Winter - Coldest season of the year with the average low at -2 degrees C and max rarely climbs above 3 degrees C. Spring - more sunshine, warmer weather." + "</td>";
-            ViewBag.Output += "<td>" + "Evangelical Lutheran, Roman Catholic, and Muslim" + " </td>";
+            ViewBag.Output += "<td>" + "Evangelical Lutheran" + " </td>";
             ViewBag.Output += "</tr>";
 
 
@@ -61,6 +61,9 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -78,6 +81,9 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -94,6 +100,11 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
             ViewBag.FAQ += "<tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
             ViewBag.FAQ += "</table>";
 
             return View("MissionType");
@@ -102,7 +113,7 @@ namespace ProjectOne.Controllers
         public ActionResult MissionTwo()
         {
             ViewBag.Pic = "Paris.png";
-            ViewBag.Output = "<table>";
+            ViewBag.Output = "<table class = 'table'>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
             ViewBag.Output += "<th>Mission President</th>";
@@ -142,6 +153,10 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -159,6 +174,9 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -175,6 +193,11 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
             ViewBag.FAQ += "<tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
             ViewBag.FAQ += "</table>";
 
             return View("MissionType");
@@ -183,7 +206,7 @@ namespace ProjectOne.Controllers
         public ActionResult MissionThree()
         {
             ViewBag.Pic = "Cali.png";
-            ViewBag.Output = "<table>";
+            ViewBag.Output = "<table class = 'table'>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
             ViewBag.Output += "<th>Mission President</th>";
@@ -222,6 +245,9 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -239,6 +265,10 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
             ViewBag.FAQ += "<tr>";
 
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
 
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<th>Question</th>";
@@ -255,9 +285,19 @@ namespace ProjectOne.Controllers
             ViewBag.FAQ += "<tr>";
             ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
             ViewBag.FAQ += "<tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "<a href='/Mission/Reply' type='button' class='btn btn-info'>Reply</a>" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
             ViewBag.FAQ += "</table>";
 
             return View("MissionType");
+        }
+
+        public ActionResult Reply ()
+        {
+            return View();
         }
     }
 }

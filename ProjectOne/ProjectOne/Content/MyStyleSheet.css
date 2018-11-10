@@ -56,4 +56,19 @@ body, html {
    width: 100%;
    position: absolute;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+.centered-thing {
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+=======
+>>>>>>> f053d95f733b5c25811ceb434303e4192de95431
+>>>>>>> 1bcb97c2efe7113f8a583febbc4d6d315c14f9c8

@@ -172,6 +172,7 @@
     <Content Include="Views\Mission\Index.cshtml" />
     <Content Include="Views\Mission\MissionType.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Mission\Reply.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
