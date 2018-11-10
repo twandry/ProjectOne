@@ -39,6 +39,60 @@ namespace ProjectOne.Controllers
 
             ViewBag.Output += "</table>";
             ViewBag.Name = "Copenhagen, Denmark";
+
+
+            ViewBag.FAQ = "<table>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How can I best prepare spiritually to be a missionary?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "What is a typical day for a missionary like?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How are missionaries called?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "</table>";
+
             return View("MissionType");
         }
         [HttpGet]
@@ -63,9 +117,62 @@ namespace ProjectOne.Controllers
             ViewBag.Output += "<td>" + "Catholicsm, Islam, Jew, Protestant, and athiest" + " </td>";
             ViewBag.Output += "</tr>";
 
-
             ViewBag.Output += "</table>";
             ViewBag.Name = "Paris, France";
+
+
+            ViewBag.FAQ = "<table>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How can I best prepare spiritually to be a missionary?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "What is a typical day for a missionary like?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How are missionaries called?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "</table>";
+
             return View("MissionType");
         }
         [HttpGet]
@@ -92,6 +199,59 @@ namespace ProjectOne.Controllers
 
             ViewBag.Output += "</table>";
             ViewBag.Name = "Arcadia, California";
+
+            ViewBag.FAQ = "<table>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How can I best prepare spiritually to be a missionary?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Work on strengthening your own understanding and testimony of the gospel by praying daily and studying the scriptures, especially the Book of Mormon. Attend your Church meetings. Participate in seminary or institute, if available. " + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "What is a typical day for a missionary like?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "A missionary's day is filled with activities that help accomplish the missionary purpose of bringing souls to Christ. Read the “Missionary Daily Schedule” to see the activities in a typical day, and study the lessons in chapter 3 of Preach My Gospel to find what missionaries teach." + "</td>";
+            ViewBag.FAQ += "<tr>";
+
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Question</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "How are missionaries called?" + "</td>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<th>Answer</th>";
+            ViewBag.FAQ += "</tr>";
+
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "<td>" + "Every missionary who is called and assigned or reassigned to a particular mission is called by revelation through the Lord's servants, the prophets. A member of the Quorum of the Twelve assigns prospective missionaries to one of more than three hundred missions of the Church." + "</td>";
+            ViewBag.FAQ += "<tr>";
+            ViewBag.FAQ += "</table>";
+
             return View("MissionType");
         }
     }

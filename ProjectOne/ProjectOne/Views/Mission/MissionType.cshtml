@@ -23,6 +23,12 @@
 <br />
 
 <p></p>
+<h1>FAQ's</h1>
+
+<p>@Html.Raw((string)ViewBag.FAQ)</p>
+
+<br />
+<br />
 
 
 <h2>Ask a Question</h2>
@@ -32,11 +38,11 @@
     @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 
 
-<form action="">
-    Submit Your Question:<br>
-    <textarea rows="4" cols="250">
+    <form action="">
+        Submit Your Question:<br>
+        <textarea rows="4" cols="250">
     </textarea>
-</form>
+    </form>
 
     <input type="submit" value="Submit Registration" />
 }
