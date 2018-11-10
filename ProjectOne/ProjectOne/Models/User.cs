@@ -15,6 +15,7 @@ namespace ProjectOne.Models
         public string email { get; set; }
         [DisplayName("Subject")]
         public string subject { get; set; }
+        [DataType(DataType.MultilineText)]
         [DisplayName("Message")]
         public string message { get; set; }
 
