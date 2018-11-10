@@ -17,6 +17,9 @@ namespace ProjectOne.Controllers
         [HttpGet]
         public ActionResult MissionOne()
         {
+            ViewBag.Imagename = "Paris.png";
+            ViewData["img"] = "Paris.png";
+    
             ViewBag.Output = "<table>";
             ViewBag.Output += "<tr>";
             ViewBag.Output += "<th>Mission Name</th>";
